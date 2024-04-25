@@ -1,2 +1,15 @@
-./miPrincipal/Principal.java
-./miTest/AppTest.java
+./vocal/Vocal.java
+./miprincipal/tipo/Triangulo.java
+./miprincipal/miPrincipal/DemoFor.java
+./miprincipal/miPrincipal/Romano.java
+./miprincipal/miPrincipal/Triangulo.java
+./miprincipal/miPrincipal/tipoTriangulo.java
+./miprincipal/miPrincipal/Menorde3.java
+./miprincipal/miPrincipal/Mayor3.java
+./miprincipal/miPrincipal/Incentivo.java
+./miprincipal/miPrincipal/Ine.java
+./miprincipal/miPrincipal/DifEdades.java
+./miprincipal/miPrincipal/Calificacion.java
+./miprincipal/miPrincipal/Bono.java
+./miprincipal/miPrincipal/Principal.java
+./peaje/Peaje.java

@@ -1,15 +1,11 @@
 package miPrincipal;
 import java.util.Scanner;
-import difEdades.DifEdades;
-import incentivo.Incentivo;
+
+import calificaciones.Calificacion;
 import ine.Ine;
-import mayor.Mayor3;
-import menorde3.Menorde3;
 import peaje.Peaje;
 import tipoTriangulo.Triangulo;
-import romano.Romano;
 import vocal.Vocal;
-import calificaciones.Calificacion;
 public class Principal {
     
     public static void main(String[] args) {
@@ -28,6 +24,8 @@ public class Principal {
         System.out.println("* 8) Menor, Igual o Mayor de 3        ");
         System.out.println("* 9) Determinar Tipo de Calificación  ");
         System.out.println("*10) Seleccionar Tipo Tarifa          ");
+        System.out.println("*11) Determinación de Bono            ");
+        System.out.println("*12) Demo For                         ");
         System.out.println("**************************************");
         System.out.print("Seleccion Opcion:");
         opcion = entrada.nextInt();
@@ -49,11 +47,11 @@ public class Principal {
              objeto.mayor();
              break;
             case 5:
-             Triangulo triangulo = new Triangulo();
+             miPrincipal.Triangulo triangulo = new Triangulo();
              triangulo.triangulo();
              break;
             case 6:
-            romano objRomano = new romano();
+            Romano objRomano = new Romano();
             objRomano.romano();
              break;
             case 7:
@@ -61,7 +59,7 @@ public class Principal {
              vocal.vocal();
              break;
             case 8:
-             menorde3 objMenorde3 = new menorde3();
+             Menorde3 objMenorde3 = new Menorde3();
              objMenorde3.menorde3();
              break;
             case 9:
@@ -72,6 +70,15 @@ public class Principal {
              Peaje obPeaje = new Peaje();
              obPeaje.peaje();
              break;
+            case 11:
+             Bono objBono = new Bono();
+             objBono.bono();
+             break;
+            case 12:
+             DemoFor objDemoFor = new DemoFor();
+             objDemoFor.demofor();
+             break;
+             
             default:
               System.out.println("Opción inválida");
         }
